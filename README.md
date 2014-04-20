@@ -1,7 +1,7 @@
-renamebot
+Renamebot
 =========
 
-IRC bot to help you change your nick.
+IRC bot to help you change your nick. Prints a message whenever someone mentions your old nick. Forwards private messages too.
 
 Usage
 =====

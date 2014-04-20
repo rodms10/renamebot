@@ -1,5 +1,5 @@
 var irc = require("irc"),
-    settings = require('./settings-dist');
+    settings = require('./settings');
 
 var config = settings.config;
 
