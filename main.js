@@ -7,7 +7,7 @@ var bot = new irc.Client(config.server, config.botName, config);
 
 bot.addListener("message", function(from, to, text, message) {
   if (text.indexOf(settings.oldName) >= 0) {
-    bot.say(config.channels[0], from + ": " + settings.nameChangeMSG);
+    bot.say(message.args[0], from + ": " + settings.nameChangeMSG);
   }
 });
 
